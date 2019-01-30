@@ -24,3 +24,7 @@ Gekko Plus is designed for crypto investors that want an easy and simple way to 
 For example if your strategy loses a lot of capital as opposed to market, or if your strategy trades more often than Gekko can safely manage **your strategy will be hidden from the marketplace**. This check is performed automatically at every highlight simulation, which is used to enhance your strategy with performance statistics within the Gekko Plus platform.
 
 The functional requirements test can be found in this repo at `functionalRequirements/test.js`. It consumes a [Gekko performanceReport](https://gekko.wizb.it/docs/internals/events.html#performanceReport-event) and will return an object, if the passed propery is false, your strategy will NOT be visibile in the marketplace and thus Gekko Plus subscribes will NOT be able to run your strategy.
+
+If your strategy is currently not passing functional requirements you will see this in the creator settings dashboard, as shown in this screenshot:
+
+![screenshot of gekko plus creator settings dashboard](https://user-images.githubusercontent.com/969743/51963498-cf212780-249e-11e9-962c-25d05ce3d96a.png)
