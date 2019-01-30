@@ -1,0 +1,22 @@
+{
+  "name": "gekkoplus-functional-requirements",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gekkoplus/marketplace-information.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gekkoplus/marketplace-information/issues"
+  },
+  "homepage": "https://github.com/gekkoplus/marketplace-information#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
