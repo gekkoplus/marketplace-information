@@ -1,6 +1,6 @@
 const moment = require('moment');
 
-const saneBacktestCheck = report => {
+const functionalRequirementsCheck = report => {
 
   const problems = [];
 
@@ -33,3 +33,5 @@ const saneBacktestCheck = report => {
     passed: problems.length === 0
   }
 }
+
+module.exports = functionalRequirementsCheck;
